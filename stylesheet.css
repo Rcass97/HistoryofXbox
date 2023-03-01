@@ -258,8 +258,8 @@ body {
     display: grid;
     flex-direction: row;
     justify-content: center;
-    grid-template-columns: 600px auto;
-    grid-template-rows: 600px 500px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto 500px;
     margin: 10px;
 }
 
@@ -273,9 +273,8 @@ body {
     width: 100%;
     max-width: 400px;
     object-fit: contain;
-    border: 2px solid rgba(0, 0, 0, 0.295);
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 30px;
     
 }
 
@@ -459,5 +458,23 @@ body {
 
     .xbox img {
         max-width: 350px;
+    }
+
+    .aboutcontainer {
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        margin-top: 20px;
+    }
+
+    .aboutmephoto img{
+        max-width: 300px;
+        border-radius: 30px;
+    }
+
+    .aboutmetext{
+        text-align: center;
     }
 }
