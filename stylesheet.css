@@ -1,0 +1,430 @@
+@import url(https://fonts.googleapis.com/css2?family=Comfortaa);
+
+/* Chrome, Edge, and Safari */
+.specialXboximg::-webkit-scrollbar {
+    height: 8px;
+}
+
+.specialXboximg::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.specialXboximg::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+html * {
+    color: #000 !important;
+    font-family: Comfortaa !important;
+}
+
+body {
+    background-color: #D8D8D8;
+    /* background-color: #2c2c2c; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 161px;
+}
+
+
+
+.nav {
+    border: 1px solid #ccc;
+    border-width: 0 0 2px 0;
+    /* border-color: rgb(24, 24, 24); */
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #D8D8D8;
+    -webkit-box-shadow: 0px 3px 27px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 27px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 3px 27px -10px rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    transition: 0.7s;
+    padding: 10px;
+}
+
+.nav li a:hover {
+    background-color: #0e7a0d;
+    border-radius: 15px;
+    opacity: 1;
+}
+
+.footer {
+    border: 1px solid #ccc;
+    border-width: 2px 0 0 0;
+    margin-top: auto;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.rightLogo {
+    max-width: 6%;
+    height: auto;
+    padding: 10px;
+    object-fit: contain;
+    margin-top: 5px;
+}
+
+.leftLogo {
+    max-width: 3%;
+    height: auto;
+    object-fit: contain;
+    margin-top: 5px;
+}
+
+.XboxHome {
+    max-width: 80px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.LeftColumn {
+    /* border: 1px solid blue; */
+    width: 100%;
+    max-width: 800px;
+}
+
+.LeftColumn p {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.FirstNews {
+    margin: 80px auto;
+    display: block;
+    text-align: center;
+}
+
+.FirstNews img {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.FirstNews a {
+    text-decoration: none;
+}
+
+.RightColumn {
+    /* border: 1px solid blue; */
+    width: 15%;
+    padding: 10px;
+    margin-left: 150px;
+}
+
+.rightImg1 a img{
+    max-width: 350px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.box a {
+    border: 3px solid rgba(0, 0, 0, 0.801);
+    border-radius: 10px 50px 10px 50px;
+    background-color: #4b4b4ba9;
+    width: 350px;
+    height: 200px;
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    transition: 0.5s;
+}
+
+.box a:hover {
+    background-color: rgba(0, 0, 0, 0.801);
+    opacity: 1;
+}
+
+.box p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.containerHist {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.consolePhoto {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+}
+
+.containerXbox {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    grid-template-columns: 600px auto;
+    grid-template-rows: 400px 400px;
+    margin-top: 20px;
+}
+
+.xbox {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.xbox img {
+    width: 100%;
+    max-width: 500px;
+    object-fit: contain;
+}
+
+.historycontent {
+    font-size: 15px;
+    padding: 30px;
+    max-width: 100%;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.specialXbox h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.specialXboximg {
+    display: flex;
+    flex-direction: row;
+    justify-content: first baseline;
+    margin: 10px;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+
+.specialXboximg img {
+    max-width: 395px;
+    width: 100%;
+    margin: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.178);
+    border-radius: 10px;
+    padding: 5px;
+    object-fit: contain;
+    background-color: white;
+}
+
+
+
+
+@media screen and (max-device-width: 600px) {
+
+    body {
+        padding-top: 57px;
+    }
+
+    .footer {
+        border: 1px solid #ccc;
+        border-width: 2px 0 0 0;
+        position: relative;
+        bottom: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .rightLogo {
+        max-width: 12%;
+        height: auto;
+        padding: 10px;
+        object-fit: contain;
+    }
+
+    .leftLogo {
+        max-width: 6%;
+        height: auto;
+        padding: 10px;
+        object-fit: contain;
+    }
+
+    .containerHist {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+
+    .box a {
+        max-width: 200px;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .nav {
+        border: 1px solid #ccc;
+        border-width: 0 0 2px 0;
+        /* border-color: rgb(24, 24, 24); */
+        list-style: none;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .nav li {
+        display: inline;
+    }
+
+    .nav a {
+        display: inline-block;
+        font-weight: bold;
+        font-size: 15px;
+        text-decoration: none;
+        color: black;
+        transition: 0.5s;
+    }
+
+    .XboxHome {
+        max-width: 40px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .LeftColumn {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .LeftColumn p {
+        text-align: center;
+    }
+
+    .FirstNews a {
+        text-align: center;
+        vertical-align: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .FirstNews img {
+        max-width: 100%;
+        display: block;
+        left: 50%;
+        right: 50%;
+
+    }
+
+    .FirstNews p {
+        font-size: 20px;
+        max-width: 100%;
+    }
+
+    .RightColumn {
+        /* border: 1px solid blue; */
+        /* width: 100%;
+        padding: 10px;
+        margin: 0 auto; */
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 auto;
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        
+
+    }
+
+    .rightImg1 {
+        min-width: 350px;
+        width: 100%;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .rightImg1 a img{
+        max-width: 350px;
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    .rightImg1 p{
+        overflow-wrap: break-word;
+        text-align: center;
+    }
+
+    .specialXboximg img {
+        max-width: 40%;
+        margin: 10px;
+        border: 2px solid rgba(0, 0, 0, 0.178);
+        border-radius: 10px;
+        padding: 5px;
+        object-fit: contain;
+        background-color: white;
+    }
+
+    .containerXbox {
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        margin-top: 20px;
+    }
+
+    .xbox img {
+        max-width: 350px;
+    }
+}
