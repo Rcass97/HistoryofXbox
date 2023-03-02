@@ -196,15 +196,14 @@ body {
     display: grid;
     flex-direction: column;
     justify-content: center;
-    grid-template-columns: 600px auto;
+    grid-template-columns: 700px auto;
     grid-template-rows: 400px 400px;
     margin-top: 20px;
 }
 
 .xbox {
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
-    height: auto;
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -217,8 +216,8 @@ body {
 }
 
 .historycontent {
-    font-size: 15px;
-    padding: 30px;
+    font-size: 1rem;
+    gap: 50px 0;
     max-width: 100%;
     line-height: 1.5;
     display: flex;
@@ -244,7 +243,7 @@ body {
 
 
 .specialXboximg img {
-    max-width: 395px;
+    max-width: 444px;
     width: 100%;
     margin: 5px;
     border: 2px solid rgba(0, 0, 0, 0.178);
@@ -337,10 +336,9 @@ body {
         /* border-color: rgb(24, 24, 24); */
         list-style: none;
         margin: 0;
-        padding: 5px;
+        padding: 0;
         text-align: center;
         display: flex;
-        justify-content: space-evenly;
         align-items: center;
     }
 
